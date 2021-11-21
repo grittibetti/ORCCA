@@ -1,8 +1,12 @@
 # ORCCA
 Optimal Randomized Canonical Correlation Analysis
 
-This project contains two versions of the ORCCA function. One in Python and one in R.
+This project is for the python version of ORCCA algorithm.
 
-The python version depends on Numpy for matrix calculation and Sklearn for CCA calculation.
+It depends on Numpy for matrix calculation and works with any CCA calculation package. Here we recommend 
 
-The R version depends on CCA pacakge. 
+cca zoo
+https://github.com/jameschapman19/cca_zoo
+
+for CCA calculation as it provides several other CCA algorithms that can be used in algorithm comparison.
+
