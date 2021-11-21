@@ -10,15 +10,15 @@ https://github.com/jameschapman19/cca_zoo
 
 for CCA calculation as it provides several other CCA algorithms that can be used in algorithm comparison. Please feel free to delete the cca_zoo dependency in the manuscript by deleting line2 and ORCCA_cor function.
 
-Some small exmaples for using ORCCA:
+# Some working exmaples for using ORCCA:
 
-# Generate ORCCA mapping for a given pair of dataset X and Y with 5 reselected random features
+1. Generate ORCCA mapping for a given pair of dataset X and Y with 5 reselected random features
 
 sample = ORCCA(X,Y,width1=0.1)
 
 sample.ORCCA_mapping(m=5)
 
-# Calculate the canonical correlations for a given pair of dataset X and Y with 5 reselected random features
+2. Calculate the canonical correlations for a given pair of dataset X and Y with 5 reselected random features
 
 sample = ORCCA(X,Y,width1=0.1)
 
