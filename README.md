@@ -8,6 +8,8 @@ It depends on Numpy for matrix calculation and works with any CCA calculation pa
 cca zoo
 https://github.com/jameschapman19/cca_zoo
 
+$ pip install cca-zoo
+
 for CCA calculation as it provides several other CCA algorithms that can be used in algorithm comparison. Please feel free to delete the cca_zoo dependency in the manuscript by deleting line2 and ORCCA_cor function then use another CCA package of your choice.
 
 # Some working exmaples for using ORCCA:
